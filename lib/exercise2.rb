@@ -1,4 +1,5 @@
-# Reopen the Fixnum class. Override the method inspect to return a word ('one', 'two', etc.) for 
+# Reopen the Fixnum class. Override the method inspect to 
+# return a word ('one', 'two', etc.) for 
 # number zero to 9 and a number for anything else
 
 
@@ -12,12 +13,12 @@ class Fixnum
  	end
 end
 
-puts 0.inspect
-puts 2.inspect
-puts 5.inspect
-puts 9.inspect
-puts 10.inspect
-puts 11.inspect
+# puts 0.inspect
+# puts 2.inspect
+# puts 5.inspect
+# puts 9.inspect
+# puts 10.inspect
+# puts 11.inspect
 
 
 class Fixnum
@@ -27,12 +28,12 @@ class Fixnum
 	end
 end
 
-puts 0.inspect
-puts 2.inspect
-puts 5.inspect
-puts 9.inspect
-puts 10.inspect
-puts 11.inspect
+# puts 0.inspect
+# puts 2.inspect
+# puts 5.inspect
+# puts 9.inspect
+# puts 10.inspect
+# puts 11.inspect
 
 
 
